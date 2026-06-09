@@ -34,6 +34,33 @@ My name is [Bita Panahi](https://linkedin.com/in/bita-panahi-1994-), and I am a 
 
 ---
 
+## Run locally
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/Bita-Panahi/Colour_Project.git
+cd color-space-explorer
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Launch the app
+```bash
+streamlit run app.py
+```
+
+Open **http://localhost:8501** in your browser.
+
+> **Windows tip:** If `streamlit` is not found, use:
+> ```bash
+> python -m streamlit run app.py
+> ```
+
+---
+
 ## Data & standards
 
 All colour calculations follow CIE (Commission Internationale de l'Éclairage) standards and are implemented from scratch; no library black-box for the core math.
