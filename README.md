@@ -36,12 +36,11 @@ My name is [Bita Panahi](https://linkedin.com/in/bita-panahi-1994-), and I am a 
 
 ## Data & standards
 
-All conversions follow **CIE** (Commission Internationale de l'Éclairage) standards:
-- Illuminant **D65** (standard daylight)
-- **CIE 1931 2° standard observer** (CIE CMFs)
-- ΔE formula: **CIE 2000** (CIEDE2000)
+All colour calculations follow CIE (Commission Internationale de l'Éclairage) standards and are implemented from scratch; no library black-box for the core math.
 
-Powered by the [`colour-science`](https://www.colour-science.org/) Python library.
+Reference data:
+- `CMF_2deg_5nm.xlsx`: CIE 1931 2° colour matching functions (x̄, ȳ, z̄), 380–780 nm at 5 nm intervals
+- `D65_5nm.xlsx`: D65 standard illuminant spectral power distribution, same grid
 
 ---
 
